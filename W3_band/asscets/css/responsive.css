@@ -1,0 +1,95 @@
+
+
+/* tablelet and mobile */
+@media (max-width: 1023px) {
+  .button.js-buy-ticket {
+    padding: 15px 16px;
+  }
+
+  .contact-form .form-control {
+    padding: 15px;
+  }
+
+  #footer .socials-list {
+    font-size: 30px;
+    margin: 0 8px ;
+  }
+
+   #footer .socials-list a {
+    margin: 0 8px ;
+  }
+
+  #footer .copyright {
+    font-size: 24px;
+  }
+  #footer .copyright a {
+    font-size: 36px;
+  }
+}
+ 
+
+
+/* Mobile */
+@media (max-width: 740px) {
+
+  .s-ful-width,
+  .s-col-ful {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+#nav {
+  display: block;
+}
+
+#nav > li {
+  display: block;
+}
+
+#nav > li:first-child {
+  display: inline-block;
+}
+
+#nav li a { 
+  padding: 1px 24px;
+}
+
+#nav .subnav {
+  position: initial;
+  background-color: #333;
+}
+
+#nav .subnav a {
+  color: #fff;
+  padding: 5px 41px;
+}
+
+
+#header {
+  overflow: hidden;
+}
+
+#header .mobile-menu-btn {
+  display: block;
+}
+
+#header .search-btn {
+  display: none;
+}
+
+#content .member-list {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#content .member-img {
+  width: 60%;
+}
+
+.contact-form {
+  margin-top: 16px;
+}
+
+}
